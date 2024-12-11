@@ -14,23 +14,23 @@ For this assignment, you will write responses to nine questions based on differe
 
 ### 1. [2.4] What is the difference between a Cartesian Product, a Natural Join, and Theta-Joins?
 
-Replace this content with your answer
+The difference between these three is that cartestian combines every row of one relation with every row of another relation which results in all combinations of a tuple. While a natural join combines common attributes of two relations deleting duplicates in the result. Theta-Joins combine rows based on a specified condition regardless of attribute names.
 
 ### 2. [2.5] What is a Referential Integrity Constraint?
 
-Replace this content with your answer
+A referential integrity contraint ensures that a foreign key in one relation is refering to a valid primary key in another relation which keeps the consistency between tables.
 
 ###  3. [2.5] What is a Key Constraint?
 
-Replace this content with your answer
+A key constraint specifies that a set of attributes which is a key uniquely identifies each tuple in a relation.
 
 ### 4. [4.1] What is an Entity/Relationship Model? What purpose does it serve in the process of creating/designing databases?
 
-Replace this content with your answer
+An E/R model is a modeling framework that visualizes the structure of a database. It defines the entities,attributes and relationships. The purpose it serves is to provide a representation of the data and its relationships to ensure the accuracy and consistency before implementation.
 
 ### 5. [4.4] What is a Weak Entity Set?
 
-Replace this content with your answer
+a set of entities in a relational database that can't be uniquely identified by their own attributes
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 
@@ -38,20 +38,19 @@ Replace this content with your answer
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 
-Replace this content with your answer
+a transaction involves managing multiple statements as a unit, while individual statements execute independently unless explicitly wrapped in a transaction.
 
 ### 8. [8] What is a Virtual View and what are its advantages?
 
-Replace this content with your answer
+A virtual view is a sql query that acts like a virtual table in that it doesn't store data itself but provides a dynamic way to access it from  one or more tables. The advantages is that it simplifies complex queries by using a consistent interface. 
 
 ### 9. [8.3] What is an *index* and what are its advantages?
 
-Replace this content with your answer
+An index is a data structure that improves the speed of which data is retrieved from the database by using a sorted order of the indexed columns.The advantages of this is faster query search, much more efficient searching since it uses indexed columns.
 
 ### 10. Explain the concept of an MVC, or model, view, controller, framework for designing full stack applications
 
-Replace this content with your answer
-
+MVC is a framework for designing full stack apps the model represents the application's data and business logic, managing data storage, retrieval, and processing, often interacting with a database.it is responsible for notifying the view when data changes occur.The view handles the user interface and presentation layer. It displays data to the user as provided by the model and forwards user actions to the controller. The controller serves as an intermediary between the model and the view. It processes user input, invokes the necessary methods in the model, and updates the view accordingly, ensuring the flow of the application is maintained.
 ---
 
 ## ❖ Due ❖
