@@ -34,7 +34,7 @@ a set of entities in a relational database that can't be uniquely identified by 
 
 ### 6. [5.2.7; 6.3.8] Explain the concepts of Outerjoin, Natural Right Outer Joins, Natural Left Outer Joins, and Full Outer Joins.
 
-Replace this content with your answer
+An Outer Join is a type of SQL join that returns all rows from one or both tables, including unmatched rows, with null used to fill missing values.Natural Right Outer Join returns all rows from the right table and only the matching rows from the left table,unmatched rows in the left table are filled with null in the result. Natural Left Outer Join returns all rows from the left table and only the matching rows from the right table, unmatched rows in the left table are filled with null in the result. Full Outer Join combines the results of both left and right outer joins. It returns all rows from both tables, filling NULLs for missing matches on either side.
 
 ### 7. [6.6.3] What is the difference between the SQL command `TRANSACTION` and the execution of any statement in SQL?
 
